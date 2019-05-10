@@ -1,6 +1,6 @@
 'use strict'
 
-const { app, BrowserWindow } = require('electron');
+import { app, BrowserWindow } from 'electron';
 
 
 //console.dir (app);
@@ -41,7 +41,7 @@ app.on('ready', ()=> {
     });
 
 
-    win.loadURL(`file://${__dirname}//renderer/index.html`);
+    win.loadURL(`file://${__dirname}//renderer//index.html`);
 
         
 })
