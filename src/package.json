@@ -1,0 +1,28 @@
+{
+  "name": "caresql",
+  "version": "1.0.0",
+  "description": "This is a desktop application for SQL scripts generation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "electron src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvaldezissc/caresql.git"
+  },
+  "keywords": [
+    "SQL",
+    "Generator",
+    "scripts"
+  ],
+  "author": "Carlos Valdez <cvaldez.issc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cvaldezissc/caresql/issues"
+  },
+  "homepage": "https://github.com/cvaldezissc/caresql#readme",
+  "dependencies": {
+    "electron": "^5.0.1"
+  }
+}
